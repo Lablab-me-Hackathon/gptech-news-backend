@@ -40,6 +40,6 @@ app.get("/feed", (req, res) => {
   res.send(articles);
 });
 
-app.listen("3002", () => {
-  console.log("App is listening at http://localhost:3002/feed");
+app.listen("3003", () => {
+  console.log("App is listening at http://localhost:3003");
 });
